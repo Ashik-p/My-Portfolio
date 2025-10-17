@@ -42,11 +42,11 @@ export default function TechnicalSkills() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {skillCategories.map((category, index) => (
               <div
-                key={index}
-                className="group relative overflow-hidden bg-white/10 backdrop-blur-lg rounded-xl p-6 border border-white/20 hover:bg-white/20 hover:shadow-2xl transition-all duration-500 shadow-lg h-80 flex flex-col"
-              >
+                 key={index}
+                 className={`group relative overflow-hidden bg-white/10 backdrop-blur-lg rounded-xl p-6 border border-white/20 hover:bg-white/20 hover:shadow-2xl transition-all duration-500 shadow-lg h-96 flex flex-col ${index === 0 ? 'testing-types-card' : ''}`}
+                >
                 {/* Parallax glow */}
-                <div className="pointer-events-none absolute -top-16 -right-16 h-40 w-40 rounded-full bg-blue-500/20 blur-2xl transform-gpu transition-transform duration-700 ease-out group-hover:translate-y-6 group-hover:translate-x-6" />
+                <div className="pointer-events-none absolute -top-16 -right-16 h-40 w-40 rounded-full bg-blue-500/20 blur-2xl transform-gpu transition-transform duration-[1500ms] ease-out group-hover:translate-y-6 group-hover:translate-x-6" />
 
                 <div className="flex-1 flex items-center justify-center group-hover:flex-none group-hover:items-start transition-all duration-[1200ms] ease-out">
                   <h3 className="relative text-lg font-semibold text-white text-center group-hover:mb-6 transition-all duration-[1200ms] ease-out">

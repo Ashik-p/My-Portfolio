@@ -5,3 +5,27 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
+/* Custom transition for Testing Types card */
+.testing-types-card .flex-1 {
+  transition: all 1500ms ease-out !important;
+}
+
+.testing-types-card:hover .flex-1 {
+  transition: all 2500ms ease-out !important;
+}
+
+.testing-types-card h3 {
+  transition: all 1500ms ease-out !important;
+}
+
+.testing-types-card:hover h3 {
+  transition: all 2500ms ease-out !important;
+}
+
+.testing-types-card .space-y-3 {
+  transition: all 1500ms ease-out !important;
+}
+
+.testing-types-card:hover .space-y-3 {
+  transition: all 2500ms ease-out !important;
+}
